@@ -6,10 +6,11 @@ Nice to have. Easily re-setup ZSH locally.
 ### Plugins
 Universal "installs"
 
-- git clone --depth=1 https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-- git clone --depth=1 https://github.com/zsh-users/zsh-autosuggestions.git $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
- 
-plugins=(git aws brew zsh-autosuggestions zsh-syntax-highlighting)
+- git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+- git clone https://github.com/zsh-users/zsh-autosuggestions.git $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+- git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $HOME/.oh-my-zsh/custom/plugins/you-should-use
+
+plugins=(git aws brew zsh-autosuggestions zsh-syntax-highlighting you-should-use)
 
 ### Themes
 
